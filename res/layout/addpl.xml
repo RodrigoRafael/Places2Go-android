@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/name_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_place" />
+
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:id="@+id/city_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/city_place" />
+
+    <EditText
+        android:id="@+id/city_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords" />
+
+    <TextView
+        android:id="@+id/state_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/state_place" />
+
+    <EditText
+        android:id="@+id/state_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords" />
+
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="164dp"
+        android:layout_height="50dp"
+        android:layout_weight="0.00"
+        android:text="@string/add_save" />
+
+</LinearLayout>
